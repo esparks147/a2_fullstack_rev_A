@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+
+<html>
+	
+	<head>
+		
+		<meta charset="UTF-8">
+		<title>Full Stack</title>
+		<link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/fullstack.css">
+		
+		
+	</head>
+	<body>
+		<h1 class="russoone">Full Stack! Created by Ethan P / May 2017</h1>
+		<h2>I want to be a "Full Stack" web developer - what does that mean?</h2>
+			<h3>I shall show you!
+				 	<a href="images/fullstack.png">
+				 	(Click here for a visual overview)
+				 	</a>
+				 </h3>
+			<br>
+			
+			
+			<ul>
+		  <li>
+						<a class="active" href="#home">Home</a>
+					</li>
+					<li>
+						<a href="#news">News</a>
+					</li>
+					<li>
+						<a href="#contact">Contact</a>
+					</li>
+					<li>
+						<a href="#about">About</a>
+					</li>
+					</ul>
+			<br>
+			
+			<h4> Task List 01 (remove when done):</h4>
+			<ol>
+				<li>Use Google fonts</li><br>
+				<li>Use a good, relevant background picture</li><br>
+				<li>Link to sites or pages for more info</li><br>
+				<li>Interesting way explaining full</li><br>
+				<li>Interesting way explaining stack</li><br>
+				<li>An interesting way to explain Lamp Stack</li><br>
+				<li>Make in-line links to the key words used in these expalnations</li>
+				
+			</ol>
+			<br>
+			<h4> Task List 02 (remove when done):</h4>
+			<ol>
+				<li>Explain "Database" in general using both text and illustrations-- be "interesting" -- do a little Google research</li><br>
+				<li>Explain MySQL -- text and illustration</li><br>
+				<li>Explain SQL -- what is it</li><br>
+				<li>Explain PHP -- what is this, where is it used?</li><br>
+				<li>Illustrate a typical DB table -- use an illustration on this page, a clickable page WE WILL DO THIS TOGETHER</li><br>
+				<li>List and explain mysql CLI steps to breate a DB, tabe, record... WE WILL DO THIS ENTIRE STEP TOGETHER</li><br>
+				<li>When done, get a grade for this checkpoint</li><br>
+			</ol>
+			
+			
+			<br>
+			<h4>What does "Full" in Full Stack mean?</h4>
+            <pre>
+            	Full means that you develop both the frotn end,and the back end. 
+            	The Front end is what the user sees on what is called the client computer.
+            	The back end is what is on the server computer that delivers content to the front end.
+            
+            </pre>    
+            <h4>What does "Stack" in Full Stack mean?</h4> 	
+			<pre>
+		Stack means that several programs, a "stack" of programs is used
+		On the front end I use HTML5, CSS3, and JavaScript.
+		On the back end I use PHP, and MySQL.
+			</pre>
+			
+			<h4>What does
+				<a href="images/LAMP_wip.png">
+				 "LAMP Stack"
+				 </a>
+				 mean?
+				</h4>
+				
+				
+			<pre>
+				LAMP is a stack used for our web page server - remember, a server sends web pa
+				LAMP stats for:
+				L = Linux, which is the basis of our server operating system
+				A = Apache, which is our web server
+				M = <a href="https://en.wikipedia.org/wiki/MySQL">MySQL</a>, the database we use
+				p = PHP, which is the programaming w
+			</pre>
+			
+			<br>
+			<hr>
+			<br>
+			
+			<h4>Explain Database:</h4>
+		<pre>
+	A database is a collection of information that is organized so that it can be easily accessed, managed and updated. 
+	Data is organized into rows, columns and tables, and it is indexed to make it easier to find relevant information. Data gets updated, expanded 
+	and deleted as new information is added. Databases process workloads to create and update themselves, 
+	querying the data they contain and running applications against it.</pre><br>
+			
+		<pre>Explain MySQL:  </pre><br>
+		
+		<pre>Explain SQL: 
+			Structured Query Language. MySQL is the name of the databae, while SQL is the language you use inside of that
+			database to answer questions -- like "which products are slow sellers, which products are fast sellers..." SQL is an international
+			standard language, works with MySQL, Oracle SQL</pre><br>
+			
+			
+	<p>
+		6. MySQL from the CLI (Command Line Interface) -- NTS, structure when done
+		
+		--The user Interface for DB's are HTML pages that WE create!
+		-- The CLI is where experts, where the Power SUers can see inside of the DB
+		but in a ver primitive, non-GUI way. In other words, CLI is for the DB exeperts,
+		not the users.
+	</p>
+	<ol>
+		<li>$ mysql -u root -p</li><br>
+		<li>Enter password:</li><br>
+		<li>mysql>  show databases;</li><br>
+		<li>mysql> CREATE DATABASE a2_parks_16may;</li><br>
+		<li>mysql> show databases;</li><br>
+		<li>mysql> USE a2_parks_16may;</li><br>
+		<li>
+			<pre>
+	mysql> CREATE TABLE student_name(
+	-> id int(8),
+	-> fname varchar(20),
+	-> lname varchar(20)
+	-> );
+				
+			</pre>
+		</li><br><br>
+		<li>mysql> show databases;</li><br>
+		<li>mysql> DESCRIBE student_name;</li><br>
+		<li>
+			<img src="images/Describe_customers.png" alt="describe_images">
+			
+		</li><br>
+		<li>mysql> DROP DATABASE a2_parks_16may;</li><br>
+		<li>
+			<pre>
+mysql> INSERT INTO customers(fname, lname)
+    -> VALUES ('Taylor', 'Swift');
+Query OK, 1 row affected (0.21 sec)
+
+				
+			</pre>
+			
+		</li>
+		
+		<li>
+			<img src="images/select.png" alt="select">
+		</li>
+	</ol>
+		
+	
+	
+	</body>
+	
+
+
+
+
+
+
+
+</html>
